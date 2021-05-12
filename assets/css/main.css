@@ -53,7 +53,7 @@
 .header-cart:hover .header-cart--inners,
 .header-cart:focus .header-cart--inners,
 .header-cart:focus-within .header-cart--inners {
-  display: block;
+  display: flex;
   visibility: visible;
   opacity: 1;
   z-index: 1;

@@ -76,7 +76,7 @@ html {
   opacity: 0;
   transform: translateY(-5em);
   z-index: -1;
-  transition: all 0s ease 0s, visibility 2s linear 0s, z-index 0s linear;
+  transition: all .6s ease 0s, visibility 2s linear 0s, z-index 0s linear;
 }
 .header__inner-list {
   list-style: none;
@@ -113,9 +113,9 @@ html {
   left: -1080.88px;
   width: 1519px;
   background-color: var(--white-color);
-  display: flex !important;
   justify-content: center;
   box-shadow: 0 3px 13px 0 rgb(0 0 0 / 10%);
+  transition: all .6s;
 }
 .header__inner--text {
   color: var(--primary-color);
